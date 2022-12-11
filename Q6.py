@@ -1,6 +1,3 @@
-
-total         =       0
-cont     =     0
 def    valorPagamento ( valor , dias ):
     juros = 0
     if (dias == 0):
@@ -10,8 +7,8 @@ def    valorPagamento ( valor , dias ):
 
         return valor + ((3 * valor)/100) + juros 
 
-
-
+total          =        0
+cont      =      0
 
 valor    =    float ( input ( "Digite o valor da prestação: " ))
 
